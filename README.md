@@ -29,6 +29,14 @@ A dynamic and responsive web app built with **React** to help students track the
 - **Deployment:** Vercel
 
 ---
+## 🧠 Data Structures & Algorithm
+
+This repo includes solutions to the following DSA problems (in JavaScript):
+
+1. ✅ Status Frequency Counter → [statusFrequency.js](./dsa/01_statusFrequency.js)
+2. ✅ Job Tracker Sorting → [sortByDate.js](./dsa/02_sortByDate.js)
+3. ✅ Detect Duplicate Applications → [detectDuplicates.js](./dsa/03_detectDuplicates.js)
+
 
 ## 📦 Installation & Setup
 
@@ -41,13 +49,6 @@ npm start
 
 ---
 
-## 🧠 Data Structures & Algorithm
-
-This repo includes solutions to the following DSA problems (in JavaScript):
-
-1. ✅ Status Frequency Counter → [statusFrequency.js](./dsa/01_statusFrequency.js)
-2. ✅ Job Tracker Sorting → [sortByDate.js](./dsa/02_sortByDate.js)
-3. ✅ Detect Duplicate Applications → [detectDuplicates.js](./dsa/03_detectDuplicates.js)
 
 
 ### ✅ What You Should Do:
