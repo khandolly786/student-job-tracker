@@ -41,6 +41,15 @@ npm start
 
 ---
 
+## 🧠 Data Structures & Algorithm
+
+This repo includes solutions to the following DSA problems (in JavaScript):
+
+1. ✅ Status Frequency Counter → [statusFrequency.js](./dsa/01_statusFrequency.js)
+2. ✅ Job Tracker Sorting → [sortByDate.js](./dsa/02_sortByDate.js)
+3. ✅ Detect Duplicate Applications → [detectDuplicates.js](./dsa/03_detectDuplicates.js)
+
+
 ### ✅ What You Should Do:
 
 - Replace `https://student-job-tracker-v4so.vercel.app/` with your actual deployed Vercel URL.
