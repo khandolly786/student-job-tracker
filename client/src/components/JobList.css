@@ -1,0 +1,59 @@
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .job-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 16px;
+    transition: 0.3s ease;
+    border-left: 6px solid #ccc;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  }
+  
+  .job-card.applied { border-color: #007bff; }
+  .job-card.interview { border-color: #ffc107; }
+  .job-card.offer { border-color: #28a745; }
+  .job-card.rejected { border-color: #dc3545; }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .status-tag {
+    padding: 4px 8px;
+    background-color: #eee;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .job-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-actions select {
+    padding: 4px 6px;
+    border-radius: 6px;
+  }
+  
+  .job-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
